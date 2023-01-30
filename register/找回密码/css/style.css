@@ -1,0 +1,96 @@
+.Content {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: 微软雅黑;
+}
+
+.bookManagementRetrievePassword {
+    width: 384px;
+    height: 480px;
+    background-color: #ffffff;
+    border: 3px solid #f8c97b;
+    border-radius:10px;
+    box-shadow:0px 0px 5px 3px #f8c97b;
+    color:#f8c97b;
+    font-size: 16px;
+    position: absolute;
+    left: 408px;
+    top: 300px;
+}
+
+.bookManagementRetrievePasswordTitle {
+    height:54px;
+    width: 100%;
+    text-align: left;
+    text-indent:14px;
+    line-height: 54px;
+    box-shadow:0px 10px 10px #ebebe9;
+    position: relative;
+}
+
+.bookManagementRetrievePasswordContent {
+    height: 250px;
+    top: 22px;
+    left:15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    height: 27px;
+    width:250px;
+    border-radius:5px;
+}
+
+.bookManagementRetrievePasswordqq{
+    width: 100%;
+    position: relative;
+}
+
+.bookManagementRetrievePasswordqqInput{
+    width: 287px;
+    display: inline-block;
+}
+
+#email {
+    width :173px;
+}
+
+#bookManagementRetrievePasswordsendbtn {
+    width: 42px;
+    height: 27px;
+    margin-left: 10px;
+    display: inline-block;  
+    background-color: #f8c97b; 
+    color: white;
+    border: 0;
+}
+
+
+#emailverification {
+    width: 235px;
+}
+
+#bookManagementRetrievePasswordButton {
+    top: 56px;
+    left: 24px;
+    width: 327px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    color: #ffffff;
+    background-color: #4dd7fb;
+    position: relative;
+    border: 0px;
+}
+
+#bookManagementRetrievePasswordinformation {
+    color:black;
+    top:75px;
+    left: 100px;
+    position: relative;
+}
