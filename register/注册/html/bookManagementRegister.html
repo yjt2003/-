@@ -7,21 +7,52 @@
         <script src="../js/test.js" type="text/javascript"></script>
     </head>
     <body>
-        <div class="Content">
-            <div class="bookManagementRegister">
-                <div class="bookManagementRegisterTitle">注册账号</div>
-                <div class="bookManagementRegisterContent">
-                    <div>学&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp号：<input type="text" placeholder="长度为十位数字，要求从未注册过" id="schoolid"></div>
-                    <div>姓&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp名：<input type="text" placeholder="请输入您的真实姓名" id="username"></div>
-                    <div>输入密码：<input type="password" placeholder="长度为6~20,大小写字母、数字或下划线" id="password"></div>
-                    <div>确认密码：<input type="password" placeholder="请再次输入密码，进行确认" id="confirmpassword"></div>
-                    <div class="bookManagementRegisterqq">
-                        <div class="bookManagementRegisterqqInput">QQ邮箱验证：<input type="text" placeholder="请输入正确的邮箱格式" id="email"></div>
-                    <button id="bookManagementRegistersendbtn">发送</button>
-                    </div>
-                    <div>输入验证码：<input type="text" placeholder="请输入六位验证码" id="emailverification"></div>
+        <div class="bookManagementRegisterTop">
+            <div class="bookManagementRegisterTopLogo">
+                <div class="bookManagementRegisterTopLogoTop">
+                    <button class="bookManagementRegisterTopLogoTopInquire">搜索</button>
+                    <button class="bookManagementRegisterTopLogoTopMy">我的图书馆</button>
                 </div>
-                <button id="bookManagementRegisterButton" onclick="myFunctionRegister()">注册</button>
+                <div class="bookManagementRegisterTopLogoSed">
+                    <div class="bookManagementRegisterTopLogoSedLogo">
+                        <img src="https://tallgao.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%B1%82%201.png">
+                    </div>
+                    <div class="bookManagementRegisterTopLogoSedChang">
+                        <img src="https://tallgao.oss-cn-beijing.aliyuncs.com/%E7%9F%A9%E5%BD%A2%202.png">
+                    </div>
+                    <div class="bookManagementRegisterTopLogoSedText">图书馆</div>
+                </div>
+                <div class="bookManagementRegisterTopLogoThird"></div>
+            </div>
+            <div class="bookManagementRegisterTopNavigation">
+                <div class="bookManagementRegisterTopNavigationInquire">
+                    搜索图书馆资源
+                </div>
+                <div class="bookManagementRegisterTopNavigationOther">
+                    <div class="bookManagementRegisterTopNavigationOtherBtn">系统管理</div>
+                    <div class="bookManagementRegisterTopNavigationOtherBtn">读者管理</div>
+                    <div class="bookManagementRegisterTopNavigationOtherBtn">图书管理</div>
+                    <div class="bookManagementRegisterTopNavigationOtherBtn">借阅管理</div>
+                    <div class="bookManagementRegisterTopNavigationOtherBtn">公告管理</div>
+                </div>
+            </div>
+        </div>
+        <div class="bookManagementRegisterContainer">
+            <div class="Content">
+                <div class="bookManagementRegisterBox">
+                    <div class="bookManagementRegisterTitle">注册账号</div>
+                    <div class="bookManagementRegisterContent">
+                        <div>学&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp号：<input type="text" placeholder="长度为十位数字，要求从未注册过" id="schoolid"></div>
+                        <div>姓&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp名：<input type="text" placeholder="请输入您的真实姓名" id="username"></div>
+                        <div>输入密码：<input type="password" placeholder="长度为6~20,大小写字母、数字或下划线" id="password"></div>
+                        <div>确认密码：<input type="password" placeholder="请再次输入密码，进行确认" id="confirmpassword"></div>
+                        <div class="bookManagementRegisterqq">
+                            <div class="bookManagementRegisterqqInput">QQ邮箱验证：<input type="text" placeholder="请输入正确的邮箱格式" id="email"></div>
+                        <button id="bookManagementRegistersendbtn">发送</button>
+                        </div>
+                        <div>输入验证码：<input type="text" placeholder="请输入六位验证码" id="emailverification"></div>
+                    </div>
+                    <button id="bookManagementRegisterButton" onclick="myFunctionRegister()">注册</button>
                 <div id = bookManagementRetrievePasswordinformation></div>
             </div>
         </div>
