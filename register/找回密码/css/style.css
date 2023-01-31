@@ -1,9 +1,130 @@
+* {
+    font-family: 思源黑体;
+}
+
+.bookManagementRegisterTop {
+    height: 150px;
+    width: 100%;
+    position: relative;
+    background-image: url(https://tallgao.oss-cn-beijing.aliyuncs.com/7QXvOerPqY.png);
+}
+
+.bookManagementRegisterTopLogo {
+    left:360px;
+    width: 1200px;
+    height: 100px;
+    position: relative;
+}
+
+.bookManagementRegisterTopLogoTop{
+    height: 35px;
+    width: 100%;
+    color: white;
+}
+
+.bookManagementRegisterTopLogoTopInquire{
+    width:50px;
+    float: right;
+    height: 35px;
+}
+
+.bookManagementRegisterTopLogoTopMy{
+    width: 110px;
+    height: 35px;
+    float: right;
+}
+
+.bookManagementRegisterTopLogoTopInquire,
+.bookManagementRegisterTopLogoTopMy {
+    background-color: transparent;
+    border: 0px;
+    color: white;
+}
+
+
+.bookManagementRegisterTopLogoSed{
+    height: 45px;
+    width: 100%;
+}
+
+.bookManagementRegisterTopLogoSedLogo {
+    width: 205px;
+    height: 44px;
+    float: left;
+}
+
+.bookManagementRegisterTopLogoSedChang{
+    width: 1px;
+    height: 38px;
+    float: left;
+    margin-left: 13px;
+    margin-top: 3px;
+    margin-right: 13px;
+}
+
+.bookManagementRegisterTopLogoSedText{
+    width: 111px;
+    font-size: 32px;
+    color: white;
+    height: 45px;
+    text-align: center;
+    line-height: 42px;
+    float: left;
+}
+
+.bookManagementRegisterTopLogoThird{
+    height: 20px;
+    width: 100%;
+}
+
+.bookManagementRegisterTopNavigation{
+    width: 1200px;
+    height: 50px;
+    left: 360px;
+    position: relative;
+}
+
+.bookManagementRegisterTopNavigationInquire{
+    width: 310px;
+    height: 50px;
+    background-color: #4ed9fb;
+    background-image: linear-gradient(to right,#4ed9fb,#1fa4ec);
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.bookManagementRegisterTopNavigationOther{
+    background-color: #e6e6e6;
+    height: 50px;
+    width: 890px;
+    float: left;
+}
+
+.bookManagementRegisterTopNavigationOtherBtn{
+    background-color: transparent;
+    color: #999999;
+    width: 178px;
+    font-size: 16px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+}
+
+.bookManagementRetrievePasswordContainer{
+    height: 930px;
+    width: 100%;
+    background-image: url(https://tallgao.oss-cn-beijing.aliyuncs.com/%E5%8E%9F%E5%88%9B%E5%BB%BA%E7%AD%91%E8%AE%BE%E8%AE%A1-%E8%A4%9A%E6%B3%BD%E5%AE%87-11.18.png);
+}
+
 .Content {
     width: 1200px;
     height: 100%;
     margin: 0 auto;
     overflow: hidden;
-    font-family: 微软雅黑;
 }
 
 .bookManagementRetrievePassword {
@@ -15,7 +136,7 @@
     box-shadow:0px 0px 5px 3px #f8c97b;
     color:#f8c97b;
     font-size: 16px;
-    position: absolute;
+    position: relative;
     left: 408px;
     top: 300px;
 }
