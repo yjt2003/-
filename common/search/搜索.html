@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="bac">
+            <div class="nav">
+                <div class="column">首页</div>
+                <div class="column">我的图书馆</div>
+                <div class="column">借阅管理</div>
+                <div class="column">修改个人信息</div>
+                <div class="column">消息</div>
+            </div>
+            <div class="logo">
+
+            </div>
+            <div class="rec">
+
+            </div>
+            <div class="library">
+                <a>图书馆</a>
+            </div>
+            <div class="summary">
+                <a>多库检索结果</a>
+            </div>
+            <div class="summaryTwo">
+                <p><a>在多库检索中，您的检索为：</a><input type="text" id="name" value=" 关键词：" class="name" style="font-size: 20px; color: red; "></p>
+                <p>下面是检索到的结果</p>
+            </div>
+            <div class="searchBox">
+                <div>
+                <input type="text" id="name" value="   书籍:活着" class="name" style="font-size: 20px;">
+                </div>
+                <div> 
+                    <input type="text" id="name" value="   作者:余华" class="name" style="font-size: 20px;">
+                </div>
+                <div>
+                    <input type="text" id="name" value="   库存:25本" class="name" style="font-size: 20px;">
+                </div>
+                <div>
+                    <input type="text" id="name" value="   是否调阅:" class="name" style="font-size: 20px;"list="ice-cream-flavors">
+                    <datalist id="ice-cream-flavors">
+                        <option value="是">
+                        <option value="否">
+                    </datalist>
+                    <!-- <form>
+                        <a class="">
+                            <select>
+                                <option>是</option>
+                                <option>否</option>
+                            </select>
+                        </a>
+                    </form> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
